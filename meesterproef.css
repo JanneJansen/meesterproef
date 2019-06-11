@@ -26,16 +26,15 @@ margin-top: -45px;
 
     
 .turn{
-    animation: rotate 1.5s ;
+    animation: slide 1.5s forwards ;
 }
 
-@keyframes rotate {
+@keyframes slide {
     0% {
-        transform: rotate(0);
+        transform: translateX(0px);
     }
     
     100% {
-        transform: rotate(360deg)
-        
+        transform: translateX(-1500px);
     }
 }

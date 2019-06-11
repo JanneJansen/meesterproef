@@ -1,4 +1,4 @@
-var tekst = document.querySelector('.text');
+var tekst = document.querySelector('#kleding');
 
 tekst.addEventListener('click', function() {
    tekst.classList.toggle('turn');
