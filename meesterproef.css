@@ -18,3 +18,8 @@ margin-top: -45px;
 #stok{
     margin-top: 60px;
 }
+
+#myMask {
+    background-clip: url(img/kledingberg.jpg);
+        
+}
