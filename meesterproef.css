@@ -12,17 +12,19 @@ margin-left: 600px;
 
 
 #kleding {
-margin-top: -45px; 
+margin-top: -32px; 
 }
 
 #stok{
-    margin-top: 60px;
+    margin-top: 20px;
 }
 
+/*
 #myMask {
     background-clip: url(img/kledingberg.jpg);
         
 }
+*/
 
     
 .turn {
@@ -38,3 +40,4 @@ margin-top: -45px;
         transform: translateX(-1500px);
     }
 }
+
