@@ -58,3 +58,15 @@ trui.addEventListener("mouseover", function( event ) {
 trui.addEventListener("mouseout", function( event ) { 
       event.target.style.fill = null;
 })
+
+
+
+let jas = document.getElementById("jas-path");
+
+jas.addEventListener("mouseover", function( event ) {   
+  event.target.style.fill = "url(#img5)";
+})
+
+jas.addEventListener("mouseout", function( event ) { 
+      event.target.style.fill = null;
+})
