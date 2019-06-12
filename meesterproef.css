@@ -13,6 +13,7 @@ margin-left: 600px;
 
 #kleding {
 margin-top: -32px; 
+color: #FFF2D7;
 }
 
 #stok{
@@ -23,6 +24,7 @@ margin-top: -32px;
         fill: #FFF2D7;
         stroke: #dcdfff;
       stroke-width: 5.67px;}
+
  .jurk1 {
            stroke: #000dff; 
            stroke-width: 5.67px;
