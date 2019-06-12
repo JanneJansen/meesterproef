@@ -19,12 +19,14 @@ margin-top: -32px;
     margin-top: 20px;
 }
 
-/*
-#myMask {
-    background-clip: url(img/kledingberg.jpg);
-        
-}
-*/
+  .hanger{
+        fill: #FFF2D7;
+        stroke: #dcdfff;
+      stroke-width: 5.67px;}
+ .jurk1 {
+           stroke: #000dff; 
+           stroke-width: 5.67px;
+        }
 
     
 .turn {
