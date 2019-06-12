@@ -6,9 +6,7 @@ tekst.addEventListener('click', function() {
 
 
 let jurk = document.getElementById("jurk-path");
-  
-// This handler will be executed only once when the cursor
-// moves over the unordered list
+
 jurk.addEventListener("mouseover", function( event ) {   
   // highlight the mouseenter target
   event.target.style.fill = "url(#img1)";
@@ -19,4 +17,27 @@ jurk.addEventListener("mouseout", function( event ) {
       event.target.style.fill = null;
 })
     
-//    fill="url(#img1)"
+let broek = document.getElementById("broek-path");
+
+broek.addEventListener("mouseover", function( event ) {   
+  // highlight the mouseenter target
+  event.target.style.fill = "url(#img2)";
+//    console.log('jemoeder');
+})
+
+broek.addEventListener("mouseout", function( event ) { 
+      event.target.style.fill = null;
+})
+
+let tshirt = document.getElementById("tshirt-path");
+
+tshirt.addEventListener("mouseover", function( event ) {   
+  // highlight the mouseenter target
+  event.target.style.fill = "url(#img3)";
+    console.log('jemoeder');
+})
+
+tshirt.addEventListener("mouseout", function( event ) { 
+      event.target.style.fill = null;
+})
+    
