@@ -2,9 +2,26 @@ var kleding = document.querySelector('#kleding');
 
 var jurk1 = document.querySelector('#jurk')
 
+var text1 = document.querySelector('.text')
+
 jurk1.addEventListener('click', function() {
    kleding.classList.toggle('turn');
     });
+
+jurk1.addEventListener('click', function() {
+   text1.classList.toggle('slidein1');
+    });
+
+
+
+var broek1 = document.querySelector('#broek')
+
+broek1.addEventListener('click', function() {
+   kleding.classList.toggle('turn');
+    });
+
+
+
 
 
 let jurk = document.getElementById("jurk-path");

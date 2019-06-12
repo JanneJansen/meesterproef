@@ -30,6 +30,11 @@ color: #FFF2D7;
            stroke-width: 5.67px;
         }
 
+
+.text{
+    margin-left: 1500px; 
+}
+
     
 .turn {
     animation: slide 1.5s forwards ;
@@ -42,6 +47,23 @@ color: #FFF2D7;
     
     100% {
         transform: translateX(-1500px);
+    }
+}
+
+.slidein1{
+    animation: slidein 2s forwards;
+}
+
+@keyframes slidein{
+    
+      0% {
+        transform: translateX(0px);
+        opacity: 0;
+    }
+    
+    100% {
+        transform: translateX(-1000px);
+        opacity: 1;
     }
 }
 
