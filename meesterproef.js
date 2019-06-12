@@ -1,7 +1,9 @@
-var tekst = document.querySelector('#kleding');
+var kleding = document.querySelector('#kleding');
 
-tekst.addEventListener('click', function() {
-   tekst.classList.toggle('turn');
+var jurk1 = document.querySelector('#jurk')
+
+jurk1.addEventListener('click', function() {
+   kleding.classList.toggle('turn');
     });
 
 
@@ -17,6 +19,9 @@ jurk.addEventListener("mouseout", function( event ) {
       event.target.style.fill = null;
 })
     
+
+
+
 let broek = document.getElementById("broek-path");
 
 broek.addEventListener("mouseover", function( event ) {   
@@ -29,14 +34,27 @@ broek.addEventListener("mouseout", function( event ) {
       event.target.style.fill = null;
 })
 
+
+
+
 let tshirt = document.getElementById("tshirt-path");
 
 tshirt.addEventListener("mouseover", function( event ) {   
   event.target.style.fill = "url(#img3)";
-    console.log('jemoeder');
 })
 
 tshirt.addEventListener("mouseout", function( event ) { 
       event.target.style.fill = null;
 })
     
+
+
+let trui = document.getElementById("trui-path");
+
+trui.addEventListener("mouseover", function( event ) {   
+  event.target.style.fill = "url(#img4)";
+})
+
+trui.addEventListener("mouseout", function( event ) { 
+      event.target.style.fill = null;
+})
