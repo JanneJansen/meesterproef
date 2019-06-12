@@ -32,7 +32,6 @@ broek.addEventListener("mouseout", function( event ) {
 let tshirt = document.getElementById("tshirt-path");
 
 tshirt.addEventListener("mouseover", function( event ) {   
-  // highlight the mouseenter target
   event.target.style.fill = "url(#img3)";
     console.log('jemoeder');
 })
