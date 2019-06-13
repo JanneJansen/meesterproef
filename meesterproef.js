@@ -6,6 +6,8 @@ var text1 = document.querySelector('.text1')
 
 var texttitle = document.querySelector('.text')
 
+var svg2 = document.querySelector('.svgdetail1')
+
 jurk1.addEventListener('click', function() {
    kleding.classList.toggle('turn');
     });
@@ -19,6 +21,12 @@ jurk1.addEventListener('click', function() {
 jurk1.addEventListener('click', function() {
    text1.classList.toggle('slidein1');
     });
+
+jurk1.addEventListener('click', function() {
+   svg2.classList.toggle('slidein1');
+    console.log('jemoeder');
+    });
+
 
 
 var broek1 = document.querySelector('#broek')
