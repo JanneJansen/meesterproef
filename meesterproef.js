@@ -2,16 +2,23 @@ var kleding = document.querySelector('#kleding');
 
 var jurk1 = document.querySelector('#jurk')
 
-var text1 = document.querySelector('.text')
+var text1 = document.querySelector('.text1')
+
+var texttitle = document.querySelector('.text')
 
 jurk1.addEventListener('click', function() {
    kleding.classList.toggle('turn');
     });
 
+
+jurk1.addEventListener('click', function() {
+   texttitle.classList.toggle('slideout1');
+    });
+
+
 jurk1.addEventListener('click', function() {
    text1.classList.toggle('slidein1');
     });
-
 
 
 var broek1 = document.querySelector('#broek')
@@ -19,8 +26,6 @@ var broek1 = document.querySelector('#broek')
 broek1.addEventListener('click', function() {
    kleding.classList.toggle('turn');
     });
-
-
 
 
 

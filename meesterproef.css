@@ -2,14 +2,6 @@ body {
     background-color: #FFF2D7;
 }
 
-p {
-font-family: "Refrigerator Deluxe";
-color: #000DFF;
-font-size: 2em;
-margin-left: 600px;
-
-}
-
 
 #kleding {
 margin-top: -32px; 
@@ -32,12 +24,35 @@ color: #FFF2D7;
 
 
 .text{
-    margin-left: 1500px; 
-}
+position: fixed;
+font-family: "Refrigerator Deluxe";
+color: #000DFF;
+font-size: 3em;
+margin-left: 600px;
 
     
+}
+
+.text1{
+position: fixed;
+margin-top: -400px;
+margin-left: 1050px; 
+font-family:"montserrat";
+font-size: 1em;
+opacity: 0;
+    
+}
+
+.vierkant1{
+    position: fixed;
+    height: 500px;
+    width: 500px;
+   color: #000DFF;
+    z-index: -1;
+}
+    
 .turn {
-    animation: slide 1.5s forwards ;
+    animation: slide 1.5s forwards;
 }
 
 @keyframes slide {
@@ -64,6 +79,21 @@ color: #FFF2D7;
     100% {
         transform: translateX(-1000px);
         opacity: 1;
+    }
+}
+
+.slideout1{
+    animation: slideout 0.3s forwards;
+}
+
+@keyframes slideout{
+    
+      0% {
+        opacity: 1;
+    }
+    
+    100% {
+         opacity: 0;
     }
 }
 
