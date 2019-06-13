@@ -43,12 +43,10 @@ opacity: 0;
     
 }
 
-.vierkant1{
-    position: fixed;
-    height: 500px;
-    width: 500px;
-   color: #000DFF;
-    z-index: -1;
+.svg2{
+position: fixed;
+margin-top: -710px;
+margin-left: -1500;
 }
     
 .turn {
