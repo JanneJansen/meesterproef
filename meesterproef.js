@@ -2,7 +2,7 @@ var kleding = document.querySelector('#kleding');
 
 var jurk1 = document.querySelector('#jurk')
 
-var text1 = document.querySelector('.text1')
+var text2 = document.querySelector('.text2')
 
 var texttitle = document.querySelector('.text')
 
@@ -19,7 +19,7 @@ jurk1.addEventListener('click', function() {
 
 
 jurk1.addEventListener('click', function() {
-   text1.classList.toggle('slidein1');
+   text2.classList.toggle('slidein1');
     });
 
 jurk1.addEventListener('click', function() {

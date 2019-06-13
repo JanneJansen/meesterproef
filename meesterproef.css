@@ -1,5 +1,6 @@
 body {
     background-color: #FFF2D7;
+    overflow: hidden;
 }
 
 .box{
@@ -12,7 +13,7 @@ body {
     width: 1680px;
     height: 1050px;
     display:block;
-/*    position: absolute;*/
+    position: absolute;
 /*    margin-top: 20px;*/
 }
 
@@ -21,10 +22,12 @@ width: 1680px;
 height: 1050px;
 display:block; 
 position: absolute;
+overflow-x: hidden;
 /*margin-top: -32px; */
 /*color: #FFF2D7;*/
 }
 
+/*
   .hanger{
         fill: #FFF2D7;
         stroke: #dcdfff;
@@ -34,6 +37,7 @@ position: absolute;
            stroke: #000dff; 
            stroke-width: 5.67px;
         }
+*/
 
 .svg3{
 width: 1680px;
@@ -42,45 +46,39 @@ display: block;
 position: absolute;
 top: 0;
 transform: translate(100%);
-    
 }
 
+.text2{
+position: absolute;
+width: 450px;
+height: 1050px;
+display: block;
+top: 0;
+transform: translate(100%);
+font-family:"montserrat";
+font-size: 1em;
+z-index: 1;
+margin-left: 1700px;
+margin-top: 300px
 
+    
+}
 .text{
 position: absolute;
 font-family: "Refrigerator Deluxe";
 color: #000DFF;
 font-size: 3em;
-margin-left: 200px;
-margin-top: 700px
+
+
 
     
 }
 
-.text1{
-position: absolute;
-margin-top: -400px;
-margin-left: 1600px; 
-font-family:"montserrat";
-font-size: 1em;
 
-    
-}
-
-/*
-.svgdetail1{
-    position: absolute;
-    margin-top:-85px;
-    min-height: 100%;
-    min-width: 100%;
-    margin-left: 1450px;
-    display: none;  
-}
-*/
 
 
 .turn {
-    animation: slide 1.5s forwards;
+    animation: slide 1s forwards;
 }
 
 @keyframes slide {
@@ -89,12 +87,12 @@ font-size: 1em;
     }
     
     100% {
-        transform: translateX(-1500px);
+        transform: translateX(-1700px);
     }
 }
 
 .slidein1{
-    animation: slidein 2s forwards;
+    animation: slidein 1s forwards;
 }
 
 @keyframes slidein{
@@ -105,11 +103,31 @@ font-size: 1em;
     }
     
     100% {
-        transform: translateX(-1400px);
+        transform: translateX(-1600px);
         display: block;
     
     }
 }
+
+
+.slidein2{
+    animation: slidein1 1s forwards;
+}
+
+@keyframes slidei1{
+    
+      0% {
+        transform: translateX(0px);
+       display: block;
+    }
+    
+    100% {
+        transform: translateX(1600px);
+        display: block;
+    
+    }
+}
+
 
 .slideout1{
     animation: slideout 0.3s forwards;
