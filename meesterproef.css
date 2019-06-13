@@ -2,14 +2,27 @@ body {
     background-color: #FFF2D7;
 }
 
-
-#kleding {
-margin-top: -32px; 
-color: #FFF2D7;
+.box{
+    width: 1680px;
+    height: 1050px;
+    overflow: hidden;
 }
 
-#stok{
-    margin-top: 20px;
+.svg1{
+    width: 1680px;
+    height: 1050px;
+    display:block;
+/*    position: absolute;*/
+/*    margin-top: 20px;*/
+}
+
+.svg2 {
+width: 1680px;
+height: 1050px;
+display:block; 
+position: absolute;
+/*margin-top: -32px; */
+/*color: #FFF2D7;*/
 }
 
   .hanger{
@@ -22,41 +35,50 @@ color: #FFF2D7;
            stroke-width: 5.67px;
         }
 
+.svg3{
+width: 1680px;
+height: 1050px;
+display: block;
+position: absolute;
+top: 0;
+transform: translate(100%);
+    
+}
+
 
 .text{
-position: fixed;
+position: absolute;
 font-family: "Refrigerator Deluxe";
 color: #000DFF;
 font-size: 3em;
-margin-left: 600px;
+margin-left: 200px;
+margin-top: 700px
 
     
 }
 
 .text1{
-position: fixed;
+position: absolute;
 margin-top: -400px;
-margin-left: 1400px; 
+margin-left: 1600px; 
 font-family:"montserrat";
 font-size: 1em;
-opacity: 0;
+
     
 }
 
+/*
 .svgdetail1{
-    position: fixed;
-    margin-top:-750px;
+    position: absolute;
+    margin-top:-85px;
     min-height: 100%;
     min-width: 100%;
     margin-left: 1450px;
-    opacity:0;  
+    display: none;  
 }
+*/
 
-.vlak2{
-    position: fixed; 
-    margin-top: 400px;
-}
-    
+
 .turn {
     animation: slide 1.5s forwards;
 }
@@ -79,12 +101,13 @@ opacity: 0;
     
       0% {
         transform: translateX(0px);
-        opacity: 0;
+       display: block;
     }
     
     100% {
         transform: translateX(-1400px);
-        opacity: 1;
+        display: block;
+    
     }
 }
 
