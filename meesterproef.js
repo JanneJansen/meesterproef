@@ -2,7 +2,12 @@ var kleding = document.querySelector('#kleding');
 
 var jurk1 = document.querySelector('#jurk')
 
-var text2 = document.querySelector('.text2')
+var dierlijk = document.querySelector('.dierlijk')
+
+var synthetisch = document.querySelector('.synthetisch')
+
+var plantaardig = document.querySelector('.plantaardig')
+
 
 var texttitle = document.querySelector('.text')
 
@@ -13,6 +18,10 @@ var menu2 = document.querySelector('.menu2')
 var menu3 = document.querySelector('.menu3')
 var menu4 = document.querySelector('.menu4')
 var menu5 = document.querySelector('.menu5')
+var tip  = document.querySelector('.tip')
+var een  = document.querySelector('.een')
+var materiaal  = document.querySelector('.materiaal')
+
 
 
 jurk1.addEventListener('click', function() {
@@ -40,9 +49,40 @@ jurk1.addEventListener('click', function() {
 menu5.classList.toggle('slideout1');
     });
 
+
+
+
+
+
 jurk1.addEventListener('click', function() {
-   text2.classList.toggle('slidein1');
+  dierlijk.classList.toggle('slidein1');
     });
+
+jurk1.addEventListener('click', function() {
+  synthetisch.classList.toggle('slidein1');
+    });
+
+jurk1.addEventListener('click', function() {
+  plantaardig.classList.toggle('slidein1');
+    });
+
+
+
+jurk1.addEventListener('click', function() {
+  tip.classList.toggle('slidein1');
+    });
+jurk1.addEventListener('click', function() {
+  een.classList.toggle('slidein1');
+    });
+jurk1.addEventListener('click', function() {
+  materiaal.classList.toggle('slidein1');
+    });
+
+
+
+
+
+
 
 jurk1.addEventListener('click', function() {
    svg2.classList.toggle('slidein1');

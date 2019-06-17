@@ -5,13 +5,13 @@ body {
 
 .box{
     width: 1680px;
-    height: 1050px;
+    height: 900px;
     overflow: hidden;
 }
 
 .svg1{
     width: 1680px;
-    height: 1050px;
+    height: 900px;
     display:block;
     position: absolute;
     margin-top: 20px;
@@ -19,7 +19,7 @@ body {
 
 .svg2 {
 width: 1680px;
-height: 1050px;
+height: 900px;
 display:block; 
 position: absolute;
 overflow-x: hidden;
@@ -40,7 +40,7 @@ overflow-x: hidden;
 
 .svg3{
 width: 1680px;
-height: 2050px;
+height: 900px;
 display: block;
 position: absolute;
 top: 0;
@@ -63,22 +63,23 @@ left: 60%;
 }
 
 
-.text2{
+.todo{
 position: absolute;
 width: 450px;
-height: 1050px;
+height: 20px;
 display: block;
-font-family:"montserrat";
-font-size: 1em;
-margin-left: 1700px;
-margin-top: 300px
+font-family: "Refrigerator Deluxe";
+font-size: 3em;
+text-decoration-line: underline;
+margin-left: 1910px;
+margin-top: 150px;
 }
 
 .tip{
-font-size: 8em;
-font-family: "Arya";
-margin-left: 76px;
-margin-top: 770px;
+font-size: 12em;
+font-family: "Refrigerator Deluxe";
+margin-left: 1783px;
+margin-top: 570px;
 position: absolute;
 display: block;
  color: #dcdfff;
@@ -89,8 +90,8 @@ font-family: "Refrigerator Deluxe";
 font-size: 19em;
 position: absolute;
 display: block;
-margin-left: 280px;
-margin-top: 720px;
+margin-left: 2000px;
+margin-top: 555px;
 color: #FFF2D7;
 text-shadow:
    -4px -4px 0 #000DFF,  
@@ -104,14 +105,15 @@ text-shadow:
 
 .materiaal{
 font-family: "Refrigerator Deluxe";
-font-size: 7.5em;
+font-size: 5.8em;
 position: absolute;
 display: block;
-width: 1050px;
-height: 1050px;
-margin-left: 480px;
-margin-top: 768px;
+width: 900px;
+height: 900px;
+margin-left: 2200px;
+margin-top: 650px;
 color: #000DFF;
+opacity:
 
     
     
