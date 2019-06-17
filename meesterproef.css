@@ -63,16 +63,51 @@ left: 60%;
 }
 
 
-.todo{
+.dierlijk{
 position: absolute;
 width: 450px;
 height: 20px;
 display: block;
 font-family: "Refrigerator Deluxe";
-font-size: 3em;
+font-size: 2.5em;
 text-decoration-line: underline;
-margin-left: 1910px;
-margin-top: 150px;
+margin-left: 2815px;
+margin-top: 160px;
+}
+
+.synthetisch{
+position: absolute;
+width: 450px;
+height: 20px;
+display: block;
+font-family: "Refrigerator Deluxe";
+font-size: 2.5em;
+text-decoration-line: underline;
+margin-left: 2228px;
+margin-top: 200px; 
+}
+
+.plantaardig{
+position: absolute;
+width: 450px;
+height: 20px;
+display: block;
+font-family: "Refrigerator Deluxe";
+font-size: 2.5em;
+text-decoration-line: underline;
+margin-left: 1800px;
+margin-top: 200px; 
+}
+
+.textplantaardig{
+position: absolute;
+width: 320px;
+height: 20px;
+display: block;
+margin-left: 200px;
+margin-top: 260px; 
+font-family: "montserrat";
+
 }
 
 .tip{
