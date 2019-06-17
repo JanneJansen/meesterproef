@@ -8,15 +8,37 @@ var texttitle = document.querySelector('.text')
 
 var svg2 = document.querySelector('.svgdetail1')
 
+var menu1 = document.querySelector('.menu1')
+var menu2 = document.querySelector('.menu2')
+var menu3 = document.querySelector('.menu3')
+var menu4 = document.querySelector('.menu4')
+var menu5 = document.querySelector('.menu5')
+
+
 jurk1.addEventListener('click', function() {
    kleding.classList.toggle('turn');
     });
 
 
 jurk1.addEventListener('click', function() {
-   texttitle.classList.toggle('slideout1');
+texttitle.classList.toggle('slideout1');
     });
 
+jurk1.addEventListener('click', function() {
+menu1.classList.toggle('slideout1');
+    });
+jurk1.addEventListener('click', function() {
+menu2.classList.toggle('slideout1');
+    });
+jurk1.addEventListener('click', function() {
+menu3.classList.toggle('slideout1');
+    });
+jurk1.addEventListener('click', function() {
+menu4.classList.toggle('slideout1');
+    });
+jurk1.addEventListener('click', function() {
+menu5.classList.toggle('slideout1');
+    });
 
 jurk1.addEventListener('click', function() {
    text2.classList.toggle('slidein1');

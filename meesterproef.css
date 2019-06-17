@@ -67,22 +67,67 @@ margin-top: 300px
 .text{
 position: absolute;
 font-family: "Refrigerator Deluxe";
+letter-spacing: 2px;
 color: #000DFF;
-font-size: 3em;
-margin-top: 850px;
-margin-left: 70px; 
-    
+width: 600px;
+font-size: 4em;
+text-align: center;
+top:70%;
+left: 60%;
 }
 
 .menu1{
 position: absolute;
-margin-top: 200px;
-margin-left: 98px; 
-font-family: "CoolveticaRg-Regular";
-font-size: 2.5em;
-color: #FFF2D7;
-    
+margin-top: 230px;
+margin-left: 105px; 
+font-family: "Helvetica-bold";
+font-size:1.3em;
+color: white; 
+
+
 }
+
+
+.menu2{
+position: absolute;
+margin-top: 370px;
+margin-left: 195px; 
+transform: rotate(-87deg);
+font-family: "Helvetica-bold"; 
+font-size: 4em;
+color: white;   
+}
+
+.menu3{
+position: absolute;
+margin-top: 350px;
+margin-left: 670px; 
+font-family: "Helvetica-bold"; 
+font-size: 1.65em;
+color: white;   
+}
+
+.menu4{
+position: absolute;
+margin-top: 180px;
+margin-left: 930px; 
+font-family: "Helvetica-bold"; 
+font-size: 1.8em;
+color: white;   
+}
+
+
+.menu5{
+position: absolute;
+margin-top: 250px;
+margin-left: 1400px; 
+transform: rotate(67deg);
+font-family: "Helvetica-bold"; 
+font-size: 3em;
+color: white;   
+}
+
+
 
 
 
