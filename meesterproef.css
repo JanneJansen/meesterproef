@@ -14,7 +14,7 @@ body {
     height: 1050px;
     display:block;
     position: absolute;
-/*    margin-top: 20px;*/
+    margin-top: 20px;
 }
 
 .svg2 {
@@ -48,22 +48,8 @@ transform: translate(100%);
 
 }
 
-
-.text2{
-position: absolute;
-width: 450px;
-height: 1050px;
-display: block;
-top: 0;
-transform: translate(100%);
-font-family:"montserrat";
-font-size: 1em;
-z-index: 1;
-margin-left: 1700px;
-margin-top: 300px
-
     
-}
+
 .text{
 position: absolute;
 font-family: "Refrigerator Deluxe";
@@ -72,13 +58,67 @@ color: #000DFF;
 width: 600px;
 font-size: 4em;
 text-align: center;
-top:70%;
+top:60%;
 left: 60%;
 }
 
+
+.text2{
+position: absolute;
+width: 450px;
+height: 1050px;
+display: block;
+font-family:"montserrat";
+font-size: 1em;
+margin-left: 1700px;
+margin-top: 300px
+}
+
+.tip{
+font-size: 8em;
+font-family: "Arya";
+margin-left: 76px;
+margin-top: 770px;
+position: absolute;
+display: block;
+ color: #dcdfff;
+
+}
+.een {
+font-family: "Refrigerator Deluxe";
+font-size: 19em;
+position: absolute;
+display: block;
+margin-left: 280px;
+margin-top: 720px;
+color: #FFF2D7;
+text-shadow:
+   -4px -4px 0 #000DFF,  
+    4px -4px 0 #000DFF,
+    -4px 4px 0 #000DFF,
+     4px 4px 0 #000DFF;
+
+
+}
+
+
+.materiaal{
+font-family: "Refrigerator Deluxe";
+font-size: 7.5em;
+position: absolute;
+display: block;
+width: 1050px;
+height: 1050px;
+margin-left: 480px;
+margin-top: 768px;
+color: #000DFF;
+
+    
+    
+}
 .menu1{
 position: absolute;
-margin-top: 230px;
+margin-top: 250px;
 margin-left: 105px; 
 font-family: "Helvetica-bold";
 font-size:1.3em;
@@ -100,7 +140,7 @@ color: white;
 
 .menu3{
 position: absolute;
-margin-top: 350px;
+margin-top: 155px;
 margin-left: 670px; 
 font-family: "Helvetica-bold"; 
 font-size: 1.65em;
@@ -184,7 +224,7 @@ color: white;
 
 
 .slideout1{
-    animation: slideout 0.3s forwards;
+    animation: slideout 0.1s ease-out forwards;
 }
 
 @keyframes slideout{
