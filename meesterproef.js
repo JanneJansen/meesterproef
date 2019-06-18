@@ -22,6 +22,13 @@ var tip  = document.querySelector('.tip')
 var een  = document.querySelector('.een')
 var materiaal  = document.querySelector('.materiaal')
 
+var textwrapper  = document.querySelector('.text-wrapper')
+
+var textwrapper1  = document.querySelector('.text-wrapper1')
+
+var textwrapper2  = document.querySelector('.text-wrapper2')
+
+
 
 
 jurk1.addEventListener('click', function() {
@@ -78,9 +85,16 @@ jurk1.addEventListener('click', function() {
   materiaal.classList.toggle('slidein1');
     });
 
+jurk1.addEventListener('click', function() {
+  textwrapper.classList.toggle('slidein1');
+    });
+jurk1.addEventListener('click', function() {
+  textwrapper1.classList.toggle('slidein1');
+    });
 
-
-
+jurk1.addEventListener('click', function() {
+  textwrapper2.classList.toggle('slidein1');
+    });
 
 
 

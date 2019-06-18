@@ -86,7 +86,7 @@ margin-top: -50px;
     display:block;
     padding: 50px 40px;
     margin-top: -710px;
-    margin-left: 125px;
+    margin-left: 1720px;
     border: solid 3px #000DFF; 
     background-color: #dcdfff;
     overflow-y: scroll;
@@ -117,7 +117,7 @@ margin-top: -50px;
     width: 320px;
     position: absolute;
      margin-top: -710px;
-    margin-left: 595px;
+    margin-left: 2210px;
     display:block;
     padding: 50px 40px;
     border: solid 3px #000DFF; 
@@ -140,15 +140,15 @@ display: block;
 font-family: "Refrigerator Deluxe";
 font-size: 2.2em;
 text-decoration-line: underline;
-margin-left: 3000px;
+margin-left: 1740px;
 margin-top: -50px;
 }
 
 .text-wrapper2 {
-    height: 200px;
+    height: 340px;
     width: 385px;
     position: absolute;
-    margin-left: 1015px;
+    margin-left: 2630px;
     margin-top: -710px;
     display:block;
     padding: 50px 40px;
