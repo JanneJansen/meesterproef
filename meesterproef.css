@@ -6,7 +6,7 @@ body {
 .box{
     width: 1680px;
     height: 900px;
-    overflow: hidden;
+    overflow-y: hidden;
 }
 
 .svg1{
@@ -22,7 +22,8 @@ width: 1680px;
 height: 900px;
 display:block; 
 position: absolute;
-overflow-x: hidden;
+/*overflow-x: hidden;*/
+overflow-x: scroll;
 /*margin-bottom: 100px;*/
 }
 
@@ -45,6 +46,7 @@ display: block;
 position: absolute;
 top: 0;
 transform: translate(100%);
+
 
 }
 
@@ -101,14 +103,35 @@ margin-top: 200px;
 
 .textplantaardig{
 position: absolute;
-width: 320px;
+width: 310px;
 height: 20px;
 display: block;
 margin-left: 200px;
 margin-top: 260px; 
 font-family: "montserrat";
+white-space: pre-wrap;
+letter-spacing: 0.7px;
+text-align: justify;
+text-justify: inter-character;
+word-break: break-all;
+}
+
+.text-wrapper {
+    height: 200px;
+    width: 310px;
+    position: absolute;
+    margin-top: -700px;
+    margin-left: 200px;
+    border: solid 3px #000DFF; 
+    
+    background-color: rebeccapurple;
+    overflow: scroll;
+
+
 
 }
+
+
 
 .tip{
 font-size: 12em;
