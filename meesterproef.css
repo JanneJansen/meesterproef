@@ -22,9 +22,9 @@ width: 1680px;
 height: 900px;
 display:block; 
 position: absolute;
-/*overflow-x: hidden;*/
+margin-top: 7px; 
 overflow-x: scroll;
-/*margin-bottom: 100px;*/
+
 }
 
 /*
@@ -45,13 +45,10 @@ height: 900px;
 display: block;
 position: absolute;
 top: 0;
+margin-left: 8px;
 transform: translate(100%);
-
-
 }
-
-
-    
+  
 
 .text{
 position: absolute;
@@ -78,7 +75,6 @@ margin-top: -50px;
 }
 
 
-
 .text-wrapper {
     height: 200px;
     width: 370px;
@@ -86,7 +82,7 @@ margin-top: -50px;
     display:block;
     padding: 50px 40px;
     margin-top: -710px;
-    margin-left: 1720px;
+    margin-left: 1735px;
     border: solid 3px #000DFF; 
     background-color: #dcdfff;
     overflow-y: scroll;
@@ -114,7 +110,7 @@ margin-top: -50px;
 
  .text-wrapper1 {
     height: 300px;
-    width: 320px;
+    width: 330px;
     position: absolute;
      margin-top: -710px;
     margin-left: 2210px;
@@ -145,10 +141,10 @@ margin-top: -50px;
 }
 
 .text-wrapper2 {
-    height: 340px;
-    width: 385px;
+    height: 300px;
+    width: 388px;
     position: absolute;
-    margin-left: 2630px;
+    margin-left: 2645px;
     margin-top: -710px;
     display:block;
     padding: 50px 40px;
@@ -164,22 +160,12 @@ margin-top: -50px;
 }
 
 .tip{
-font-size: 12em;
+font-size: 18em;
 font-family: "Refrigerator Deluxe";
-margin-left: 1783px;
+margin-left: 1733px;
 margin-top: 570px;
 position: absolute;
 display: block;
- color: #dcdfff;
-
-}
-.een {
-font-family: "Refrigerator Deluxe";
-font-size: 19em;
-position: absolute;
-display: block;
-margin-left: 2000px;
-margin-top: 555px;
 color: #FFF2D7;
 text-shadow:
    -4px -4px 0 #000DFF,  
@@ -189,6 +175,21 @@ text-shadow:
 
 
 }
+.een {
+font-family: "Refrigerator Deluxe";
+font-size: 18em;
+position: absolute;
+display: block;
+margin-left: 2080px;
+margin-top: 575px;
+color: #FFF2D7;
+text-shadow:
+   -4px -4px 0 #000DFF,  
+    4px -4px 0 #000DFF,
+    -4px 4px 0 #000DFF,
+     4px 4px 0 #000DFF;
+
+}
 
 
 .materiaal{
@@ -196,16 +197,14 @@ font-family: "Refrigerator Deluxe";
 font-size: 5.8em;
 position: absolute;
 display: block;
-width: 900px;
+width: 1000px;
 height: 900px;
-margin-left: 2200px;
-margin-top: 650px;
+margin-left: 2310px;
+margin-top: 642px;
 color: #000DFF;
-opacity:
-
-    
-    
 }
+
+
 .menu1{
 position: absolute;
 margin-top: 250px;
@@ -257,7 +256,18 @@ font-size: 3em;
 color: white;   
 }
 
+.pijl{
 
+    width: 100%;
+    height: 1005;
+    transform: scale(0.018);
+    position: absolute;
+    margin-top: -1880px;
+    margin-left:-815px;
+  
+   
+   
+}
 
 
 
@@ -293,24 +303,9 @@ color: white;
     }
 }
 
+  
 
-.slidein2{
-    animation: slidein1 1s forwards;
-}
 
-@keyframes slidei1{
-    
-      0% {
-        transform: translateX(0px);
-       display: block;
-    }
-    
-    100% {
-        transform: translateX(1600px);
-        display: block;
-    
-    }
-}
 
 
 .slideout1{
