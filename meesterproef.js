@@ -13,6 +13,7 @@ var texttitle = document.querySelector('.text')
 
 var svg2 = document.querySelector('.svgdetail1')
 
+
 var menu1 = document.querySelector('.menu1')
 var menu2 = document.querySelector('.menu2')
 var menu3 = document.querySelector('.menu3')
@@ -28,6 +29,8 @@ var textwrapper1  = document.querySelector('.text-wrapper1')
 
 var textwrapper2  = document.querySelector('.text-wrapper2')
 
+var pijl = document.querySelector('.pijl')
+
 
 
 
@@ -37,23 +40,23 @@ jurk1.addEventListener('click', function() {
 
 
 jurk1.addEventListener('click', function() {
-texttitle.classList.toggle('slideout1');
+texttitle.classList.toggle('turn');
     });
 
 jurk1.addEventListener('click', function() {
-menu1.classList.toggle('slideout1');
+menu1.classList.toggle('turn');
     });
 jurk1.addEventListener('click', function() {
-menu2.classList.toggle('slideout1');
+menu2.classList.toggle('turn');
     });
 jurk1.addEventListener('click', function() {
-menu3.classList.toggle('slideout1');
+menu3.classList.toggle('turn');
     });
 jurk1.addEventListener('click', function() {
-menu4.classList.toggle('slideout1');
+menu4.classList.toggle('turn');
     });
 jurk1.addEventListener('click', function() {
-menu5.classList.toggle('slideout1');
+menu5.classList.toggle('turn');
     });
 
 
@@ -95,6 +98,9 @@ jurk1.addEventListener('click', function() {
 jurk1.addEventListener('click', function() {
   textwrapper2.classList.toggle('slidein1');
     });
+jurk1.addEventListener('click', function() {
+  pijl.classList.toggle('slidein1');
+    });
 
 
 
@@ -133,7 +139,7 @@ let broek = document.getElementById("broek-path");
 broek.addEventListener("mouseover", function( event ) {   
   // highlight the mouseenter target
   event.target.style.fill = "url(#img2)";
-//    console.log('jemoeder');
+
 })
 
 broek.addEventListener("mouseout", function( event ) { 
@@ -176,5 +182,36 @@ jas.addEventListener("mouseover", function( event ) {
 jas.addEventListener("mouseout", function( event ) { 
       event.target.style.fill = null;
 })
+
+
+
+
+//pijl.addEventListener('click', function() {
+//kleding.classList.toggle('slidein2');
+//    });
+//
+//pijl.addEventListener('click', function() {
+//svg2.classList.toggle('slideout1');
+//    });
+//
+//pijl.addEventListener('click', function() {
+//textwrapper.classList.toggle('slideout1');
+//    });
+//pijl.addEventListener('click', function() {
+//textwrapper1.classList.toggle('slideout1');
+//    });
+//pijl.addEventListener('click', function() {
+//textwrapper2.classList.toggle('slideout1');
+//    });
+//pijl.addEventListener('click', function() {
+//tip.classList.toggle('slideout1');
+//    });
+//pijl.addEventListener('click', function() {
+//een.classList.toggle('slideout1');
+//    });
+//pijl.addEventListener('click', function() {
+//materiaal.classList.toggle('slideout1');
+//    });
+
 
 
