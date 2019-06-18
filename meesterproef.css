@@ -50,6 +50,7 @@ transform: translate(100%);
 
 }
 
+
     
 
 .text{
@@ -64,18 +65,40 @@ top:60%;
 left: 60%;
 }
 
-
-.dierlijk{
+.plantaardig{
 position: absolute;
 width: 450px;
 height: 20px;
 display: block;
 font-family: "Refrigerator Deluxe";
-font-size: 2.5em;
+font-size: 2.2em;
 text-decoration-line: underline;
-margin-left: 2815px;
-margin-top: 160px;
+margin-left: 1612px;
+margin-top: -50px; 
 }
+
+
+
+.text-wrapper {
+    height: 200px;
+    width: 370px;
+    position: absolute;
+    display:block;
+    padding: 50px 40px;
+    margin-top: -710px;
+    margin-left: 125px;
+    border: solid 3px #000DFF; 
+    background-color: #dcdfff;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+    font-family: "montserrat";
+    font-size: 1.2em;
+    letter-spacing: 0.7px;
+    
+    text-align: justify;
+    text-justify: inter-character;}
+
 
 .synthetisch{
 position: absolute;
@@ -83,55 +106,62 @@ width: 450px;
 height: 20px;
 display: block;
 font-family: "Refrigerator Deluxe";
-font-size: 2.5em;
+font-size: 2.2em;
 text-decoration-line: underline;
-margin-left: 2228px;
-margin-top: 200px; 
+margin-left: 1580px;
+margin-top: -50px; 
 }
 
-.plantaardig{
+ .text-wrapper1 {
+    height: 300px;
+    width: 320px;
+    position: absolute;
+     margin-top: -710px;
+    margin-left: 595px;
+    display:block;
+    padding: 50px 40px;
+    border: solid 3px #000DFF; 
+    background-color: #dcdfff;
+   overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: "montserrat";
+    font-size: 1.2em;
+    letter-spacing: 0.7px;
+    text-align: justify;
+    text-justify: inter-character;
+}
+
+
+.dierlijk{
 position: absolute;
 width: 450px;
 height: 20px;
 display: block;
 font-family: "Refrigerator Deluxe";
-font-size: 2.5em;
+font-size: 2.2em;
 text-decoration-line: underline;
-margin-left: 1800px;
-margin-top: 200px; 
+margin-left: 3000px;
+margin-top: -50px;
 }
 
-.textplantaardig{
-position: absolute;
-width: 310px;
-height: 20px;
-display: block;
-margin-left: 200px;
-margin-top: 260px; 
-font-family: "montserrat";
-white-space: pre-wrap;
-letter-spacing: 0.7px;
-text-align: justify;
-text-justify: inter-character;
-word-break: break-all;
-}
-
-.text-wrapper {
+.text-wrapper2 {
     height: 200px;
-    width: 310px;
+    width: 385px;
     position: absolute;
-    margin-top: -700px;
-    margin-left: 200px;
+    margin-left: 1015px;
+    margin-top: -710px;
+    display:block;
+    padding: 50px 40px;
     border: solid 3px #000DFF; 
-    
-    background-color: rebeccapurple;
-    overflow: scroll;
-
-
-
+    background-color: #dcdfff;
+   overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: "montserrat";
+    font-size: 1.2em;
+    letter-spacing: 0.7px;
+    text-align: justify;
+    text-justify: inter-character;
 }
-
-
 
 .tip{
 font-size: 12em;
